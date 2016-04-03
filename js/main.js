@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+    var srcollNumber = 0;
 	//check if background-images have been loaded and show list items
 	$('.cd-single-project').bgLoaded({
 	  	afterLoaded : function(){
@@ -18,27 +19,34 @@ jQuery(document).ready(function($){
 		toggleProject($('.is-full-width'), $('.projects-container'), false);
 	});
 
-	//scroll to project info
-	$('.projects-container .cd-scroll').on('click', function(){
-		$('body').animate({'scrollTop':$(window).height()}, 500); 
-	});
 
-	/*$('.projects-container').on('scroll', function(){
+
+	//scroll to project info
+	/*$('.cd-single-project .cd-scroll').on('click', function(){
+		$('body').animate({'scrollTop':$(window).height()}, 500); 
+	});*/
+
+/*	$('.projects-container').on('scroll', function(){
 		var iscrollTop = document.body.scrollTop;
 		console.log(iscrollTop);
 		// $('body').animate({'scrollTop':$(window).height()}, 500); 
 	});*/
 
-	$(window).scroll(function () {
-		var iscrollTop = document.body.scrollTop;
-		var OneBlockHeight = parseInt(window.getComputedStyle(document.querySelector('.is-full-width'), '::after').getPropertyValue('height').replace(/px/g, ""));
-		console.log(iscrollTop,OneBlockHeight);
-	});
+	
+
 
 	//update title and .cd-scroll opacity while scrolling
 	/*$('.projects-container').on('scroll', function(){
 		window.requestAnimaclose-carbon-advtionFrame(changeOpacity);
 	});*/
+
+
+/*function () {
+		var iscrollTop = document.body.scrollTop;
+		var OneBlockHeight = parseInt(window.getComputedStyle(document.querySelector('.is-full-width'), '::after').getPropertyValue('height').replace(/px/g, ""));
+		console.log(iscrollTop,OneBlockHeight);
+	}*/
+
 
 	function toggleProject(project, container, bool) {
 		if(bool) {
@@ -81,6 +89,51 @@ jQuery(document).ready(function($){
 			}, 150);
 		}
 	}
+
+	function handle(delta) {
+	    var iscrollTop = document.body.scrollTop;
+		var OneBlockHeight = parseInt(window.getComputedStyle(document.querySelector('.is-full-width'), '::after').getPropertyValue('height').replace(/px/g, ""));
+		var jumpHeightUp;
+		var jumpHeightDown;
+		
+		if(delta < 0){
+		   jumpHeightDown = (Math.ceil(iscrollTop / OneBlockHeight) + 1) * OneBlockHeight;
+		   $('body').animate({'scrollTop': jumpHeightDown }, 500,function(){
+		   		window.addEventListener('DOMMouseScroll', wheel, false);
+				window.onmousewheel = document.onmousewheel = wheel;
+		   });
+		} 
+		else{
+		   jumpHeightUp = (Math.ceil(iscrollTop / OneBlockHeight) - 1) * OneBlockHeight;
+		   $('body').animate({'scrollTop': jumpHeightUp }, 500,function(){
+		   		window.addEventListener('DOMMouseScroll', wheel, false);
+				window.onmousewheel = document.onmousewheel = wheel;
+		   }); 
+		}
+    }
+ 
+	function wheel(event){
+		    var delta = 0;
+		    srcollNumber = (srcollNumber + 1) % 4;
+		    if (!event) event = window.event;
+
+		    if (event.wheelDelta) {
+		        delta = event.wheelDelta/120; 
+		        if (window.opera) delta = -delta;
+		    } else if (event.detail) {
+		        delta = -event.detail/3;
+		    }
+		    if (delta && srcollNumber == 0)
+		    	window.removeEventListener('DOMMouseScroll', wheel, false);
+				window.onmousewheel = document.onmousewheel = null;
+		        handle(delta);
+		}
+	 
+	if (window.addEventListener)
+	window.addEventListener('DOMMouseScroll', wheel, false);
+	window.onmousewheel = document.onmousewheel = wheel;
+
+
 });
 
  /*
@@ -121,3 +174,11 @@ jQuery(document).ready(function($){
 		});
 	};
 })(jQuery);
+
+
+
+
+/**
+ * 简易的事件添加方法
+ */
+ 

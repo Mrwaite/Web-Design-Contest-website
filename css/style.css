@@ -591,6 +591,11 @@ Main Components
   -moz-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   transition: opacity 0.4s 0s, visibility 0s 0.4s;
 }
+
+.mag-top0{margin-top: 0vh;}
+
+.tp290{top :290px;}
+
 .is-full-width .cd-project-info {
   visibility: visible;
   opacity: 1;
