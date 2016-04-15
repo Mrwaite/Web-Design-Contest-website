@@ -92,7 +92,7 @@ jQuery(document).ready(function($){
 
 	function handle(delta) {
 	    var iscrollTop = document.body.scrollTop;
-		var OneBlockHeight = parseInt(window.getComputedStyle(document.querySelector('.is-full-width'), '::after').getPropertyValue('height').replace(/px/g, ""));
+		var OneBlockHeight = document.querySelector('.is-full-width') ? parseInt(window.getComputedStyle(document.querySelector('.is-full-width'), '::after').getPropertyValue('height').replace(/px/g, "")) : 0;
 		var jumpHeightUp;
 		var jumpHeightDown;
 		
