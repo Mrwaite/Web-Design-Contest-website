@@ -16,31 +16,26 @@ $(function() {
         flash_swf_url: 'bower_components/plupload/js/Moxie.swf',
         dragdrop: true,
         chunk_size: '4mb',
-        uptoken_url: 'uptoken.jsp',
+        uptoken_url: 'http://www.jaylanme.xyz/uptoken.jsp',
         domain: "https://portal.qiniu.com/bucket/jaylan",
         get_new_uptoken: true,
-        // downtoken_url: '/downtoken',
-        // unique_names: true,
-        // save_key: true,
-        // x_vars: {
-        //     'id': '1234',
-        //     'time': function(up, file) {
-        //         var time = (new Date()).getTime();
-        //         // do something with 'time'
-        //         return time;
-        //     },
         // },
         auto_start: true,
         log_level: 5,
         init: {
             'FilesAdded': function(up, files) {
-                $('table').show();
-                $('#success').hide();
-                plupload.each(files, function(file) {
-                    var progress = new FileProgress(file, 'fsUploadProgress');
-                    progress.setStatus("等待...");
-                    progress.bindUploadCancel(up);
-                });
+                if($(".form-control").val() === ""){
+                    alert("团队名称为空");
+                }
+                else{
+                    $('table').show();
+                    $('#success').hide();
+                    plupload.each(files, function(file) {
+                        var progress = new FileProgress(file, 'fsUploadProgress');
+                        progress.setStatus("等待...");
+                        progress.bindUploadCancel(up);
+                    });
+                }
             },
             'BeforeUpload': function(up, file) {
                 var progress = new FileProgress(file, 'fsUploadProgress');

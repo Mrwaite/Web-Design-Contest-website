@@ -113,7 +113,7 @@ tr .progressCancel{
     padding-left: 24px;
 }
 #pickfiles{
-     width: 64%;
+    width: 64%;
     height: 252px;
     margin-left: 20%;
     box-sizing: border-box;
@@ -254,7 +254,7 @@ a {
 
 @media (max-width: 768px){
   .drag{
-    font-size: 1.3em;
+    font-size: 1.1em;
     letter-spacing: 0;
     display: block;
   }
