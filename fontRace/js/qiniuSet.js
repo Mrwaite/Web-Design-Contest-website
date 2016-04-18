@@ -2,6 +2,8 @@
 /*global plupload */
 /*global FileProgress */
 /*global hljs */
+
+//qiniu set
 function qiniuSet(){
     var uploader = Qiniu.uploader({
         filters: {
@@ -18,7 +20,7 @@ function qiniuSet(){
         flash_swf_url: 'bower_components/plupload/js/Moxie.swf',
         dragdrop: true,
         chunk_size: '4mb',
-        uptoken_url: 'http://www.jaylanme.xyz/get!token?',
+        uptoken_url: 'http://www.jaylanme.xyz/get!token',
         domain: "https://portal.qiniu.com/bucket/jaylan",
         get_new_uptoken: true,
   
@@ -227,8 +229,9 @@ function qiniuSet(){
         return false;
     });
 
-    }
+    }//qiniu set end
 
+//提示框信息
  var checkFormText = [
         "请填写团队名称。",
         "抱歉，此队伍未报名。",//0
@@ -239,13 +242,55 @@ function qiniuSet(){
         "未过初审。加油骚年！",//31
         "决赛作品已提交。请在5月14日准时参加决赛现场。",//4
         "决赛作品未提交，提交时间已截至。"//41
-    ]
+    ];
 
-function setProgress(color,item){
-    var progress = '<div class="progress-bar progress-bar-' + color +' progress-bar-striped" style="width: 25%">' + item + '</div>'
-    $(progress).appendTo($('#show_status'));
+
+//进度条信息
+var progressText = {
+    "0" : "没有此队伍",
+    "1":"报名成功",
+    "2":"初赛作品提交",
+    "21" :"初赛作品未提交",
+    "3":"初审过",
+    "31" :"初审未过",
+    "4":"决赛作品提交",
+    "41" :"决赛作品未提交"
+};
+
+//进度条代码
+var progress = {
+        "1" : "",
+        "2" : "",
+        "21" : "",
+        "3" : "",
+        "4" : "",
+        "41" : ""
+    };
+
+ function eachProgress(color,item){
+        var progress_div = '<div class="progress-bar progress-bar-' + color +'" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 25%">' + item + '</div>';
+        return progress_div;
+    }
+
+//组装好progress
+(function(){
+    progress["1"] = eachProgress("info",progressText["1"]);
+    progress["2"] = progress["1"] + eachProgress("warning",progressText["2"]);
+    progress["21"] = progress["1"] + eachProgress("danger",progressText["21"]);
+    progress["3"] = progress["2"] + eachProgress("success",progressText["3"]);
+    progress["31"] = progress["2"] + eachProgress("danger",progressText["31"]);
+    progress["4"] = progress["3"] + eachProgress("warning ",progressText["4"]);
+    progress["41"] = progress["3"] + eachProgress("danger",progressText["41"]);
+})()
+
+
+//设定进度条
+function setProgress(num){
+    $('#show_status').html(progress[num]);
 }
 
+
+//设定提示框
 function setCheckForm(text,color){
     if(arguments.length !== 0){
         if(color !== "green"){
@@ -266,34 +311,6 @@ function setCheckForm(text,color){
 
 
 $(function() {
- /*       var allowUpLoad = false;
-        $(".form-control").on("blur",function(){
-            $.ajax({
-                tyep: "get",
-                url: "1.json",
-                success: function(data){
-                    var pa = JSON.parse(data);
-                    if(pa === "1"){
-                        allowUpLoad = false;
-                        $("#checkForm").css("visibility","visible");
-                        $("#checkForm .checkInfo").text("已报名队伍中没有此队伍");
-                    }
-                    else if(pa === "2"){
-                        allowUpLoad = false;
-                        $("#checkForm").css("visibility","visible");
-                        $("#checkForm .checkInfo").text("已经提交过作品");
-                        //之后就是呈现进度条到已提交作品
-                    }
-                    else{
-                        allowUpLoad = true;
-                    }
-                }
-            })
-        });*/
-   
-
-	
-
     /*提交作品查询进度按钮
     0：没有此队伍
     1：报名成功
@@ -336,15 +353,15 @@ $(function() {
                             $("#progress_form").hiden();
                             $("#container").show();
                             qiniuSet();
-                            setProgress("success","报名成功");
+                            setProgress(1);
                         }
                         else if(pa_progress === "2"){
                             setCheckForm(checkFormText[3],"green");
-                            setProgress("success","初赛作品已提交");
+                            setProgress(2);
                         }
                         else if(pa_progress === "21"){
                             setCheckForm(checkFormText[4],"red");
-                            setProgress("warning","初赛作品未提交");
+                            setProgress(21);
                         }
                         else if(pa_progress === "3"){
                             setCheckForm(checkFormText[5],"green");
@@ -352,19 +369,19 @@ $(function() {
                             $("#progress_form").hiden();
                             $("#container").show();
                             qiniuSet();
-                            setProgress("success","初审过");
+                            setProgress(3);
                         }
                         else if(ppa_progress === "31"){
                             setCheckForm(checkFormText[6],"red");
-                            setProgress("warning","初审未过");
+                            setProgress(31);
                         }
                         else if(ppa_progress === "4"){
                             setCheckForm(checkFormText[7],"green");
-                            setProgress("success","决赛作品已提交");
+                            setProgress(4);
                         }
                         else if(ppa_progress === "41"){
                             setCheckForm(checkFormText[8],"red");
-                            setProgress("warning","决赛作品未提交");
+                            setProgress(41);
                         }
                     }
                 });
