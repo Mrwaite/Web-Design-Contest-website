@@ -78,7 +78,7 @@ window.onload= function () {
                     $('.top-margin select').attr('disabled','disabled');
                     $('.top-margin textarea').attr('disabled','disabled');
                     $('h3.text-center').html('\u62a5\u540d\u6210\u529f\uff01');
-                   $('#pro').after('<div><p class="text-center text-danger">报名成功!请在比赛细则里查看初赛作品提交时间</p></div>');
+                    $('#pro').after('<div><p class="text-center text-danger">报名成功!请在比赛细则里查看初赛作品提交时间</p></div>');
                 }
 
             }
