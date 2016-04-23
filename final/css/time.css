@@ -1,35 +1,15 @@
 @-ms-viewport { 
     width: device-width;
     height: device-height;
-}            
-body,
-body *
-{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    outline: none;
-}
+}  
 
-body {
-    background-image:url(../img/web2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color:#f1f4f5;
-    padding: 20px;
-}
-
-
+html,body{width: 100%;height: 100%;}
 
 h1 {
     font-family: "Montserrat";
     font-size: 46px;
     font-weight: 400;
-    color:#0c0c0c;
+    color:white;
     text-transform: uppercase;
     text-align: center;
 }
@@ -85,7 +65,7 @@ h1 strong {
     width: 850px;
     max-width: 100%;
     height: 300px;
-    margin: 200px auto 0;
+    margin: 37% auto 0;
     position: relative;
 }
 
@@ -94,18 +74,18 @@ canvas {
 }
 
 .seconds canvas {
-    left: -11px;
-    top: -11px;
+    left: -6px;
+    top: -6px;
 }
 
 .seconds {
-    width: 300px;
-    height: 300px;
+    width: 181px;
+    height: 181px;
     border-radius: 100%;
     border: 2px solid #000;
     position: absolute;
-    left: calc(50% - 150px);
-    top:0;
+    left: -47px;
+    top: 126px;
 }
 
 .circle-bg-inner {
@@ -122,11 +102,11 @@ canvas {
     filter: brightness(70%) contrast(200%);
 }
 
-.seconds .num {
+/*.seconds .num {
     font-family: "Montserrat";
     font-size: 100px;
     font-weight: 700;
-    color:#0c0c0c;
+    color:white;
     text-align: center;
     margin-top: 75px;
 }
@@ -135,10 +115,10 @@ canvas {
     font-family: "Montserrat";
     font-size: 30px;
     font-weight: 700;
-    color:#0c0c0c;
+    color:white;
     text-align: center;
     text-transform: uppercase;
-}
+}*/
 
 .days canvas {
     top: -4px;
@@ -161,16 +141,16 @@ canvas {
     font-family: "Montserrat";
     font-size: 25px;
     font-weight: 700;
-    color:#0c0c0c;
+    color:white;
     text-align: center;
     margin-top: 25px;
 }
 
 .days .str {
     font-family: "Montserrat";
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
-    color:#0c0c0c;
+    color:white;
     text-align: center;
     text-transform: uppercase;
 }
@@ -181,31 +161,29 @@ canvas {
 }
 
 .hours {
-    width:180px;
+    width: 180px;
     height: 180px;
-    
     border: 2px solid #000;
     border-radius: 100%;
-    
     position: absolute;
-    left: 0;
-    top: calc(50% - 90px);
+    left: -47px;
+    top: -307px;
 }
 
-.hours .num {
+.seconds .num,.hours .num {
     font-family: "Montserrat";
     font-size: 43px;
     font-weight: 700;
-    color:#0c0c0c;
+    color:white;
     text-align: center;
     margin-top: 63px;
 }
 
-.hours .str {
+.seconds .str,.hours .str {
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
-    color:#0c0c0c;
+    color:white;
     text-align: center;
     text-transform: uppercase;
 }
@@ -216,31 +194,30 @@ canvas {
 }
 
 .minutes {
-    width:180px;
+    width: 180px;
     height: 180px;
-    
     border: 2px solid #000;
     border-radius: 100%;
-    
     position: absolute;
-    right: 0;
-    top: calc(50% - 90px);
+    /* right: 0; */
+    left: -47px;
+    top: -91px;
 }
 
 .minutes .num {
     font-family: "Montserrat";
     font-size: 43px;
     font-weight: 700;
-    color:#0c0c0c;
+    color:white;
     text-align: center;
     margin-top: 63px;
 }
 
 .minutes .str {
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
-    color:#0c0c0c;
+    color:white;
     text-align: center;
     text-transform: uppercase;
 }

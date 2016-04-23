@@ -15,7 +15,7 @@ jQuery(document).ready(function($){
 	});
 
 	//close project
-	$('.projects-container .cd-close').on('click', function(){
+	$('.projects-container .cd-scroll').on('click', function(){
 		toggleProject($('.is-full-width'), $('.projects-container'), false);
 	});
 
@@ -133,6 +133,14 @@ jQuery(document).ready(function($){
 	window.addEventListener('DOMMouseScroll', wheel, false);
 	window.onmousewheel = document.onmousewheel = wheel;
 
+
+	
+	$(".projects-cover img").on("click",function(){
+		$(".projects-cover").addClass("magictime vanishOut");
+		setTimeout(function(){
+			$(".projects-cover").hide();
+		},1000)
+	});
 
 });
 
