@@ -341,7 +341,7 @@ $(function() {
                 setCheckForm();
                 $.ajax({
                     type: "get",
-                    url: "xxx.jsp?team_name" + $(".form-control").val(),
+                    url: "xxx.jsp?team_name=" + $(".form-control").val(),
                     success : function(data){
                         var pa_progress = JSON.parse(data);
                         if(pa_progress === "0"){
@@ -381,6 +381,45 @@ $(function() {
                         }
                         else if(ppa_progress === "41"){
                             setCheckForm(checkFormText[8],"red");
+                            setProgress(41);
+                        }
+                    }
+                });
+            }
+                
+    });
+    $("#btn_progress").on("click",function(){
+        if($(".form-control").val() === ""){
+                setCheckForm(checkFormText[0],"red");
+                }
+        else{ //else if(allowUpLoad === true)
+                setCheckForm();
+                $.ajax({
+                    type: "get",
+                    url: "xxx.jsp?team_name=" + $(".form-control").val(),
+                    success : function(data){
+                        var pa_progress = JSON.parse(data);
+                        if(pa_progress === "0"){
+                        }
+                        else if(pa_progress === "1"){
+                            setProgress(1);
+                        }
+                        else if(pa_progress === "2"){
+                            setProgress(2);
+                        }
+                        else if(pa_progress === "21"){
+                            setProgress(21);
+                        }
+                        else if(pa_progress === "3"){
+                            setProgress(3);
+                        }
+                        else if(ppa_progress === "31"){
+                            setProgress(31);
+                        }
+                        else if(ppa_progress === "4"){
+                            setProgress(4);
+                        }
+                        else if(ppa_progress === "41"){
                             setProgress(41);
                         }
                     }
