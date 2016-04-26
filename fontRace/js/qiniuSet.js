@@ -53,9 +53,12 @@ function qiniuSet(){
             },
             'UploadComplete': function() {
                 $("#container").hide();
+                $(".table-striped td:gt(1)").hide();
+                $(".table-striped tr:eq(1)").append("<td>上传成功</td>:");
                 $("#checkForm").css({'visibility' : 'visible' ,'background-color' : '#5cb85c', 'border-color' : '#4cae4c','color':'#fff'});
                 $("#checkForm .checkInfo").text("请在此平台或者网协微信公众号上及时查询评审结果。");
-                $.post("xxx.jsp", {'team_name': $(".form-control").val()});
+                /*$.post("http://www.jaylanme.xyz/write!writeprogress", {'team_name': $(".form-control").val()});*/
+                setProgress(2);
             },
             'FileUploaded': function(up, file, info) {
                 var progress = new FileProgress(file, 'fsUploadProgress');
@@ -66,6 +69,14 @@ function qiniuSet(){
                 var progress = new FileProgress(err.file, 'fsUploadProgress');
                 progress.setError();
                 progress.setStatus(errTip);
+            },
+            'QueueChanged' : function (up, files) {    
+                $.each(up.files, function (i, file) {
+                    if( i > 0){
+                        uploader.removeFile(file);
+                        setCheckForm("拖拽多个压缩包，只接收第一个。","red");
+                    }                    
+                });
             }
                 // ,
                 // 'Key': function(up, file) {
@@ -341,16 +352,16 @@ $(function() {
                 setCheckForm();
                 $.ajax({
                     type: "get",
-                    url: "xxx.jsp?team_name=" + $(".form-control").val(),
+                    url: "http://www.jaylanme.xyz/check!checkname?team_name=" + $(".form-control").val(),
                     success : function(data){
-                        var pa_progress = JSON.parse(data);
+                        var pa_progress = data;
                         if(pa_progress === "0"){
                             setCheckForm(checkFormText[1],"red");
                         }
                         else if(pa_progress === "1"){
                             setCheckForm(checkFormText[2],"green");
                             $(".form-control").attr("disabled","disabled");
-                            $("#progress_form").hiden();
+                            $("#progress_form").hide();
                             $("#container").show();
                             qiniuSet();
                             setProgress(1);
@@ -366,20 +377,20 @@ $(function() {
                         else if(pa_progress === "3"){
                             setCheckForm(checkFormText[5],"green");
                             $(".form-control").attr("disabled","disabled");
-                            $("#progress_form").hiden();
+                            $("#progress_form").hide();
                             $("#container").show();
                             qiniuSet();
                             setProgress(3);
                         }
-                        else if(ppa_progress === "31"){
+                        else if(pa_progress === "31"){
                             setCheckForm(checkFormText[6],"red");
                             setProgress(31);
                         }
-                        else if(ppa_progress === "4"){
+                        else if(pa_progress === "4"){
                             setCheckForm(checkFormText[7],"green");
                             setProgress(4);
                         }
-                        else if(ppa_progress === "41"){
+                        else if(pa_progress === "41"){
                             setCheckForm(checkFormText[8],"red");
                             setProgress(41);
                         }
@@ -396,9 +407,9 @@ $(function() {
                 setCheckForm();
                 $.ajax({
                     type: "get",
-                    url: "xxx.jsp?team_name=" + $(".form-control").val(),
+                    url: "http://www.jaylanme.xyz/check!checkname?team_name=" + $(".form-control").val(),
                     success : function(data){
-                        var pa_progress = JSON.parse(data);
+                        var pa_progress = data;
                         if(pa_progress === "0"){
                         }
                         else if(pa_progress === "1"){
@@ -413,13 +424,13 @@ $(function() {
                         else if(pa_progress === "3"){
                             setProgress(3);
                         }
-                        else if(ppa_progress === "31"){
+                        else if(pa_progress === "31"){
                             setProgress(31);
                         }
-                        else if(ppa_progress === "4"){
+                        else if(pa_progress === "4"){
                             setProgress(4);
                         }
-                        else if(ppa_progress === "41"){
+                        else if(pa_progress === "41"){
                             setProgress(41);
                         }
                     }

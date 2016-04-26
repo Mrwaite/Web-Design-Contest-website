@@ -206,7 +206,7 @@ FileProgress.prototype.setComplete = function(up, info) {
             "<div class=hash><strong>Hash:</strong>" + res.hash + "</div>";
     }
 
-    tdProgress.html("上传成功！").removeClass().next().next('.status').hide();
+    tdProgress.html("上传成功！").removeClass().next().next('.status');
     td.find('.progressCancel').hide();
 
     var progressNameTd = this.fileProgressWrapper.find('.progressName');
