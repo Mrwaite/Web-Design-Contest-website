@@ -57,7 +57,7 @@ function qiniuSet(){
                 $(".table-striped tr:eq(1)").append("<td>上传成功</td>:");
                 $("#checkForm").css({'visibility' : 'visible' ,'background-color' : '#5cb85c', 'border-color' : '#4cae4c','color':'#fff'});
                 $("#checkForm .checkInfo").text("请在此平台或者网协微信公众号上及时查询评审结果。");
-                /*$.post("http://www.jaylanme.xyz/write!writeprogress", {'team_name': $(".form-control").val()});*/
+                $.post("http://www.jaylanme.xyz/write!writeprogress", {'team_name': $(".form-control").val()});
                 setProgress(2);
             },
             'FileUploaded': function(up, file, info) {
