@@ -1,0 +1,79 @@
+/*change boorstrap basic css stylesheet*/
+
+
+.breadcrumb{
+    background-color: white;
+    margin-top: 20px;
+}
+
+.container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.page-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.list-group-item{
+    border: none;
+}
+
+
+.panel-success>.panel-heading{
+    background-image: none;
+    background-color: #fff;
+    color: #ccc;
+    border-bottom: none;
+}
+.panel-success>hr{
+    width: 80%;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.panel-body{
+    padding-left: 24%;
+}
+
+
+
+.input-group{
+    width: 70%;
+}
+
+.form-control:focus{
+    border-color: rgb(204, 204, 204);
+    outline: none;
+    -webkit-box-shadow: 0 0 25px #ccc;
+    -moz-box-shadow: 0 0 25px #ccc;
+    box-shadow: 0 0 25px #ccc;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+.btnSubmit{
+    width: 70%;
+}
+
+#checkForm{
+    width: 62%;
+    margin-left: 15px;
+    border-radius: 4px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-bottom: 30px;
+    visibility: visible;
+    border-color: rgb(235, 204, 209);
+    color: rgb(169, 68, 66);
+    background-color: rgb(242, 222, 222);
+}

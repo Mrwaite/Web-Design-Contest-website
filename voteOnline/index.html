@@ -5,24 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>网页设计大赛决赛评委打分表</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" >
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen" />
+    <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
+    <ol class="breadcrumb">
+        <li><a href="#">网页设计大赛</a></li>
+        <li><a href="#">参赛队伍</a></li>
+        <li class="active">XXX团队(1/15)</li>
+    </ol>
     <div class="container">
+
+        <h2 class="page-title">第六届网页设计大赛</h2>
+        <div class="row">
         <div class="cl-sm-8 cl-sm-offset-2">
-            <div class="panel panel-primary">
-                <div class="panel-heading">xxxx团队</div>
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3 class="thin text-center">XXX队伍(1/15)</h3>
+                </div>
+                <hr />
                 <div class="panel-body">
-                    <div class="form-group">
-                        <lable>xxx分数</lable>
-                        <input class="form-control" type="text">
-                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="form-group">
+                                <label>主题内容（15分）：</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" />
+                                    <span class="input-group-addon">分</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-group">
+                                <label>常规技术（15分）：</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" />
+                                    <span class="input-group-addon">分</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-group">
+                                <label>高级技术（10分）：</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" />
+                                    <span class="input-group-addon">分</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-group">
+                                <label>个人表现（10分）：</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" />
+                                    <span class="input-group-addon">分</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item ">
+                            <div class="form-group ">
+                                <label>创意得分（10分）：</label>
+                                <div class="input-group has-success">
+                                    <input type="text" class="form-control" />
+                                    <span class="input-group-addon">分</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-group">
+                                <button type="button" class="btn btn-primary btnSubmit">提交</button>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
+        </div>
     </div>
 </body>
-<scrpit src="js/jquery-2.2.3.min.js"></scrpit>
+<script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </html>
