@@ -62,7 +62,9 @@
     width: 70%;
 }
 
-#checkForm{
+.checkForm{
+    margin-top: 4%;
+    margin-bottom: -8%;
     width: 62%;
     margin-left: 15px;
     border-radius: 4px;
@@ -71,7 +73,6 @@
     border-color: #ebccd1;
     border: 1px solid transparent;
     text-align: center;
-    margin-bottom: 30px;
     visibility: visible;
     border-color: rgb(235, 204, 209);
     color: rgb(169, 68, 66);
