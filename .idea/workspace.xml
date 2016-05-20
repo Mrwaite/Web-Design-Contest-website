@@ -5,9 +5,163 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47860f5a-a7ad-4029-a859-f9d7d9c32b26" name="默认" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/img/()).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/img/().jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/img/(.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/img/).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/img/baimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/img/baimg3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/img/baimg4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/img/baimg6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/menberinfo/2/1.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/menberinfo/2/2.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/menberinfo/2/web.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/menberinfo/6/6 li.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time/audio/alert.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time/img/FotorCreated5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time/img/bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/css/video-js.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/js/echarts.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/js/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/js/videojs-java.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time/css/TimeCircles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time/javascript/TimeCircles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time/javascript/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time/javascript/jquery.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final/img/img-1-large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final/img/img-1-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final/img/img-2-large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final/img/img-2-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final/img/img-3-large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final/img/img-3-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final/img/img-4-large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final/img/img-4-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/final/img/web1.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/img/1.png" afterPath="$PROJECT_DIR$/final/img/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/img/2.jpg" afterPath="$PROJECT_DIR$/final/img/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/images/asterisk_orange.png" afterPath="$PROJECT_DIR$/fontRace/images/asterisk_orange.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/images/cancel.png" afterPath="$PROJECT_DIR$/fontRace/images/cancel.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/images/erwei.png" afterPath="$PROJECT_DIR$/fontRace/images/erwei.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/images/github.png" afterPath="$PROJECT_DIR$/fontRace/images/github.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/images/gt_favicon.png" afterPath="$PROJECT_DIR$/fontRace/images/gt_favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/images/logo.png" afterPath="$PROJECT_DIR$/fontRace/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/images/tick.png" afterPath="$PROJECT_DIR$/fontRace/images/tick.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/images/wechat.jpg" afterPath="$PROJECT_DIR$/fontRace/images/wechat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/images/wechat.png" afterPath="$PROJECT_DIR$/fontRace/images/wechat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/race.doc" afterPath="$PROJECT_DIR$/fontRace/race.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/voteOnline/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/voteOnline/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/voteOnline/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/voteOnline/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Web-Design-Contest-website.iml" afterPath="$PROJECT_DIR$/.idea/Web-Design-Contest-website.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/mrwaite.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/mrwaite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/.idea/.name" afterPath="$PROJECT_DIR$/final/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/.idea/expandable-project-presentation.iml" afterPath="$PROJECT_DIR$/final/.idea/expandable-project-presentation.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/.idea/misc.xml" afterPath="$PROJECT_DIR$/final/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/.idea/modules.xml" afterPath="$PROJECT_DIR$/final/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/.idea/vcs.xml" afterPath="$PROJECT_DIR$/final/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/.idea/workspace.xml" afterPath="$PROJECT_DIR$/final/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/README.md" afterPath="$PROJECT_DIR$/final/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/final/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/css/magic.min.css" afterPath="$PROJECT_DIR$/final/css/magic.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/css/reset.css" afterPath="$PROJECT_DIR$/final/css/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/css/style.css" afterPath="$PROJECT_DIR$/final/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/css/time.css" afterPath="$PROJECT_DIR$/final/css/time.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/img/cd-icon-arrow-desktop.svg" afterPath="$PROJECT_DIR$/final/img/cd-icon-arrow-desktop.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/img/cd-icon-arrow-mobile.svg" afterPath="$PROJECT_DIR$/final/img/cd-icon-arrow-mobile.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/img/cd-icon-close-desktop.svg" afterPath="$PROJECT_DIR$/final/img/cd-icon-close-desktop.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/img/cd-icon-close-mobile.svg" afterPath="$PROJECT_DIR$/final/img/cd-icon-close-mobile.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/index.html" afterPath="$PROJECT_DIR$/final/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/js/fn.js" afterPath="$PROJECT_DIR$/final/js/fn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/js/jquery-2.1.1.js" afterPath="$PROJECT_DIR$/final/js/jquery-2.1.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/js/jquery.easing.js" afterPath="$PROJECT_DIR$/final/js/jquery.easing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/js/main.js" afterPath="$PROJECT_DIR$/final/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/js/modernizr.js" afterPath="$PROJECT_DIR$/final/js/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/js/zbcanvas.js" afterPath="$PROJECT_DIR$/final/js/zbcanvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/time.html" afterPath="$PROJECT_DIR$/final/time.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/.idea/.name" afterPath="$PROJECT_DIR$/fontRace/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/.idea/fontRace2.0.iml" afterPath="$PROJECT_DIR$/fontRace/.idea/fontRace2.0.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/.idea/misc.xml" afterPath="$PROJECT_DIR$/fontRace/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/.idea/modules.xml" afterPath="$PROJECT_DIR$/fontRace/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/.idea/vcs.xml" afterPath="$PROJECT_DIR$/fontRace/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/.idea/workspace.xml" afterPath="$PROJECT_DIR$/fontRace/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/Submissions.html" afterPath="$PROJECT_DIR$/fontRace/Submissions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/Opensans.css" afterPath="$PROJECT_DIR$/fontRace/css/Opensans.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/fontRace/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/fontRace/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/HELP-US-OUT.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/css/font-awesome.css" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/animated.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/animated.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/bordered-pulled.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/core.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/fixed-width.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/font-awesome.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/icons.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/larger.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/larger.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/list.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/mixins.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/path.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/rotated-flipped.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/stacked.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/stacked.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/variables.less" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_animated.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_animated.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_core.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_icons.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_larger.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_list.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_mixins.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_path.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_stacked.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_variables.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/fontRace/css/font-awesome-4.5.0/font-awesome-4.5.0/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/form.css" afterPath="$PROJECT_DIR$/fontRace/css/form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/highlight.css" afterPath="$PROJECT_DIR$/fontRace/css/highlight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/main.css" afterPath="$PROJECT_DIR$/fontRace/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/css/qiniu.css" afterPath="$PROJECT_DIR$/fontRace/css/qiniu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/fontRace/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/headroom.min.js" afterPath="$PROJECT_DIR$/fontRace/js/headroom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/highlight.js" afterPath="$PROJECT_DIR$/fontRace/js/highlight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/jQuery.headroom.min.js" afterPath="$PROJECT_DIR$/fontRace/js/jQuery.headroom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/jquery-2.0.0.min.js" afterPath="$PROJECT_DIR$/fontRace/js/jquery-2.0.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/jquery.min.js" afterPath="$PROJECT_DIR$/fontRace/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/newform.js" afterPath="$PROJECT_DIR$/fontRace/js/newform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/plupload.full.min.js" afterPath="$PROJECT_DIR$/fontRace/js/plupload.full.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/qiniu.js" afterPath="$PROJECT_DIR$/fontRace/js/qiniu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/qiniuSet.js" afterPath="$PROJECT_DIR$/fontRace/js/qiniuSet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/status.init.js" afterPath="$PROJECT_DIR$/fontRace/js/status.init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/template.js" afterPath="$PROJECT_DIR$/fontRace/js/template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/ui.js" afterPath="$PROJECT_DIR$/fontRace/js/ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/js/zh_CN.js" afterPath="$PROJECT_DIR$/fontRace/js/zh_CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/php/db_connect.php" afterPath="$PROJECT_DIR$/fontRace/php/db_connect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/php/formdata.php" afterPath="$PROJECT_DIR$/fontRace/php/formdata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fontRace/php/formname.php" afterPath="$PROJECT_DIR$/fontRace/php/formname.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/voteOnline/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/voteOnline/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/css/main.css" afterPath="$PROJECT_DIR$/voteOnline/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/voteOnline/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/index.html" afterPath="$PROJECT_DIR$/voteOnline/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/voteOnline/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/js/jquery.min.js" afterPath="$PROJECT_DIR$/voteOnline/js/jquery.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voteOnline/js/main.js" afterPath="$PROJECT_DIR$/voteOnline/js/main.js" />
     </list>
     <ignored path="Web-Design-Contest-website.iws" />
@@ -30,33 +184,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voteOnline/index.html">
+        <entry file="file://$PROJECT_DIR$/final/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="480">
+              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#2;n#h2#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#video#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#video#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#video#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#video#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="33" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voteOnline/css/main.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/time/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1174">
-              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+            <state relative-caret-position="312">
+              <caret line="31" column="144" selection-start-line="31" selection-start-column="144" selection-end-line="31" selection-end-column="144" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final/css/time.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/voteOnline/js/main.js">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
+              <caret line="178" column="21" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="601">
+              <caret line="1161" column="34" selection-start-line="1161" selection-start-column="34" selection-end-line="1161" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,6 +285,20 @@
         <option value="$PROJECT_DIR$/voteOnline/css/main.css" />
         <option value="$PROJECT_DIR$/voteOnline/index.html" />
         <option value="$PROJECT_DIR$/voteOnline/js/main.js" />
+        <option value="$PROJECT_DIR$/final/time.html" />
+        <option value="$PROJECT_DIR$/final/js/fn.js" />
+        <option value="$PROJECT_DIR$/final/css/time.css" />
+        <option value="$PROJECT_DIR$/fontRace/js/qiniuSet.js" />
+        <option value="$PROJECT_DIR$/time/javascript/index.js" />
+        <option value="$PROJECT_DIR$/time/javascript/TimeCircles.js" />
+        <option value="$PROJECT_DIR$/time/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/final/js/video.js" />
+        <option value="$PROJECT_DIR$/final/css/video.css" />
+        <option value="$PROJECT_DIR$/final/test.html" />
+        <option value="$PROJECT_DIR$/final/css/style.css" />
+        <option value="$PROJECT_DIR$/final/index.html" />
+        <option value="$PROJECT_DIR$/time/index.html" />
+        <option value="$PROJECT_DIR$/final/js/main.js" />
       </list>
     </option>
   </component>
@@ -96,8 +309,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="27" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -218,6 +431,7 @@
     <OptionsSetting value="true" id="更新" />
     <OptionsSetting value="true" id="状态" />
     <OptionsSetting value="true" id="编辑" />
+    <OptionsSetting value="true" id="签出" />
     <ConfirmationsSetting value="2" id="添加" />
     <ConfirmationsSetting value="0" id="移除" />
   </component>
@@ -236,6 +450,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,13 +479,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="voteOnline" />
+              <option name="myItemId" value="final" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -282,12 +496,18 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/voteOnline/js" />
-      <recent name="$PROJECT_DIR$/voteOnline/fonts" />
-      <recent name="$PROJECT_DIR$/voteOnline/css" />
+      <recent name="$PROJECT_DIR$/final/menberinfo/2" />
+      <recent name="$PROJECT_DIR$/final/menberinfo/6" />
+      <recent name="$PROJECT_DIR$/final/js" />
+      <recent name="$PROJECT_DIR$/final/menberinfo" />
+      <recent name="$PROJECT_DIR$/final/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/final/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -321,6 +541,7 @@
       <gulpfile />
       <tasks />
       <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
@@ -332,7 +553,7 @@
       <method />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
+      <node-interpreter>/usr/bin/node</node-interpreter>
       <node-options />
       <working-directory />
       <pass-parent-env>true</pass-parent-env>
@@ -370,12 +591,25 @@
       <workItem from="1462264146990" duration="17145000" />
       <workItem from="1462350201130" duration="5089000" />
       <workItem from="1462454332129" duration="599000" />
-      <workItem from="1462527122854" duration="5182000" />
+      <workItem from="1462527122854" duration="5958000" />
+      <workItem from="1462595390641" duration="7121000" />
+      <workItem from="1462699665792" duration="4678000" />
+      <workItem from="1462802140396" duration="629000" />
+      <workItem from="1462878362798" duration="301000" />
+      <workItem from="1463317129910" duration="497000" />
+      <workItem from="1463379012935" duration="13201000" />
+      <workItem from="1463411653623" duration="1482000" />
+      <workItem from="1463443628031" duration="22750000" />
+      <workItem from="1463487611343" duration="8793000" />
+      <workItem from="1463497774769" duration="858000" />
+      <workItem from="1463529154700" duration="429000" />
+      <workItem from="1463531044181" duration="99000" />
+      <workItem from="1463535334414" duration="14454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44546000" />
+    <option name="totallyTimeSpent" value="120614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,10 +621,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14511873" sideWeight="0.496208" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2087994" sideWeight="0.496208" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -400,13 +634,39 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32084432" sideWeight="0.503792" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14806548" sideWeight="0.496208" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32084432" sideWeight="0.503792" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -424,6 +684,141 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/final/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="717" column="25" selection-start-line="717" selection-start-column="25" selection-end-line="717" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/css/time.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="89" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="89" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/css/time.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#2;n#h2#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1060" column="31" selection-start-line="1060" selection-start-column="31" selection-end-line="1060" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="67" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/css/time.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#2;n#h2#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1028" column="37" selection-start-line="1028" selection-start-column="37" selection-end-line="1028" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/css/time.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voteOnline/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voteOnline/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voteOnline/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/voteOnline/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -434,15 +829,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voteOnline/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
+        <state relative-caret-position="0">
           <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/voteOnline/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="0">
           <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
           <folding />
         </state>
@@ -450,9 +844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voteOnline/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
+        <state relative-caret-position="0">
           <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -460,9 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,9 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -509,7 +895,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/meta.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
+        <state relative-caret-position="0">
           <caret line="419" column="22" selection-start-line="419" selection-start-column="22" selection-end-line="419" selection-end-column="22" />
         </state>
       </provider>
@@ -523,36 +909,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fontRace/js/qiniu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="0">
           <caret line="1273" column="33" selection-start-line="1273" selection-start-column="33" selection-end-line="1273" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/文档/bootstrap-3.3.5-dist/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3528">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="0">
           <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="0">
           <caret line="228" column="16" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/voteOnline/fonts/glyphicons-halflings-regular.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="0">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
@@ -566,30 +944,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fontRace/Submissions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="0">
           <caret line="204" column="15" selection-start-line="204" selection-start-column="15" selection-end-line="204" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fontRace/js/qiniuSet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6912">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/voteOnline/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1174">
+        <state relative-caret-position="0">
           <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/voteOnline/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
+        <state relative-caret-position="0">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="41" />
           <folding />
         </state>
@@ -597,10 +966,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voteOnline/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="55" column="60" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/js/fn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9946" selection-start-line="0" selection-start-column="9941" selection-end-line="0" selection-end-column="9946" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/time.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="67" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time/javascript/TimeCircles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="50392" selection-start-line="4" selection-start-column="50392" selection-end-line="4" selection-end-column="50412" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time/javascript/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fontRace/js/qiniuSet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="254" column="19" selection-start-line="254" selection-start-column="19" selection-end-line="254" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/js/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="1161" column="34" selection-start-line="1161" selection-start-column="34" selection-end-line="1161" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/css/time.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="33" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <caret line="178" column="21" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
           <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#h2#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#3;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="31" column="144" selection-start-line="31" selection-start-column="144" selection-end-line="31" selection-end-column="144" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

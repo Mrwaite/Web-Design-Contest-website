@@ -82,10 +82,10 @@ canvas {
     width: 181px;
     height: 181px;
     border-radius: 100%;
-    border: 2px solid #000;
+    /*border: 2px solid #000;*/
     position: absolute;
-    left: -47px;
-    top: 126px;
+    left: 69%;
+    top: -26%;
 }
 
 .circle-bg-inner {
@@ -128,7 +128,7 @@ canvas {
 .days {
     width: 92px;
     height: 92px;
-    border: 2px solid #000;
+    /*border: 2px solid #000;*/
     border-radius: 100%;
     background: #fff;
     
@@ -163,11 +163,11 @@ canvas {
 .hours {
     width: 180px;
     height: 180px;
-    border: 2px solid #000;
+    /*border: 2px solid #000;*/
     border-radius: 100%;
     position: absolute;
-    left: -47px;
-    top: -307px;
+    left: 7%;
+    top: -23.9%;
 }
 
 .seconds .num,.hours .num {
@@ -196,12 +196,12 @@ canvas {
 .minutes {
     width: 180px;
     height: 180px;
-    border: 2px solid #000;
+    /*border: 2px solid #000;*/
     border-radius: 100%;
     position: absolute;
     /* right: 0; */
-    left: -47px;
-    top: -91px;
+    left: 37%;
+    top: -25%;
 }
 
 .minutes .num {

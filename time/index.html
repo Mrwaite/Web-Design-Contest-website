@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>30倒计时</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/TimeCircles.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<style>
+    body{/*background-image: url("img/bg1.jpg");*/overflow-x: hidden;}
+    .textDiv_Days{display: none;}
+    .textDiv_Hours{display: none;}
+    .textDiv_Minutes{    top: 53% !important;
+        left: 24.6% ! important;}
+    .textDiv_Seconds{       top: 53% !important;
+        left: 54.1% ! important;}
+    canvas{-webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 100%, 35% 100%,35% 3%);    margin-top: 14%;
+        margin-left: -39%;
+        height: 300px;}
+    .textDiv_Seconds h4,.textDiv_Minutes h4{
+        font-size: 24px !important;
+    }
+    .textDiv_Seconds span,.textDiv_Minutes span{
+        font-size : 90px !important;
+    }
+</style>
+<body>
+
+    <div class="example" data-timer="180"></div>
+    <button style=" margin-left: 30.5%;margin-top: 5%;outline: none;" type="button" class="btn-lg btn-info" onclick="$('.example').TimeCircles().start();">开始</button>
+    <button style=" margin-left: 8.5%;margin-top: 5%;outline: none;" type="button" class="btn-lg btn-info" onclick="$('.example').TimeCircles().stop();">暂停</button>
+    <button style=" margin-left: 7.5%;margin-top: 5%;outline: none;" type="button" class="btn-lg btn-info" onclick="$('.example').TimeCircles().restart();">重置</button>
+    <audio id="bgMusic">
+        <source  src="audio/alert.mp3" type="audio/mp3">
+    </audio>
+</body>
+<script src="javascript/jquery.min.js"></script>
+<script src="javascript/TimeCircles.js"></script>
+<script>
+    $(".example").TimeCircles({
+        time:{
+            Day: {
+                show : true,
+            },
+            Hours : {
+                show : true,
+            },
+            Minutes : {
+                show : true,
+                text : "分",
+                /*color : "#000"*/
+            },
+            Seconds : {
+                show : true ,
+                text : "秒",
+                /*color : "#000"*/
+            }
+        },
+        circle_bg_color : "transparent",
+        count_past_zero : false
+    }).addListener(countdownComplete);;
+
+
+    function countdownComplete(unit, value, total){
+        if(total == 30){
+            var audio = document.getElementById("bgMusic");
+            audio.play();
+        }
+        if(total<=0){
+            var audio = document.getElementById("bgMusic");
+            audio.play();
+        }
+    }
+</script>
+</html>

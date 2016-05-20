@@ -11,53 +11,51 @@
         <script src="js/jquery.easing.js"></script>
         <script src="js/fn.js"></script>
     </head>
-    <body>
+    <body style="background-color: #999;">
 
-        <script type="text/javascript">
-            // Clock settings
-            
-            var Counter_Settings = {
-                startdate : "15 April 2016 00:00:00 GMT",  // Date the countdown started
-                enddate: "15 May 2016 00:00:00 GMT",    // Countdown end date
-                callback: function () {
-                    // script to run when countdown is complete (optional)
-                }
-            };
-        </script>
-        
-        <!-- <p>网页设计大赛</p> -->
-        <!--Clocks Wrapper-->
-        <div class="clockworks">
+     	<script type="text/javascript">
+             // Clock settings
 
-            <div class="hours">
-               
-                <canvas></canvas>
-                <p class="num"></p>
-                <p class="str">Hours</p>
-            </div>
+             var Counter_Settings = {
+                 startdate : "15 April 2016 00:00:00 GMT",  // Date the countdown started
+                 enddate: "18 May 2016 11:00:00 GMT",    // Countdown end date
+                 callback: function () {
+                     $(".clockworks").hide();
+                     $(".projects-cover img").css("display","block");
+                     // script to run when countdown is complete (optional)
+                 }
+             };
+         </script>
+             <div class="clockworks">
 
-            <div class="days" style="visibility:hidden;">
-                
-                <canvas></canvas>
-                <p class="num"></p>
-                <p class="str">Days</p>
-            </div>
+        <div class="hours">
 
-            <div class="seconds">
-
-                <canvas></canvas>
-                <p class="num"></p>
-                <p class="str">Secs</p>
-            </div>
-
-            <div class="minutes">
-                
-                <canvas></canvas>
-                <p class="num"></p>
-                <p class="str">Minutes</p>
-            </div>
-
+            <canvas></canvas>
+            <p class="num"></p>
+            <p class="str">Hours</p>
         </div>
+
+        <div class="days" style="visibility:hidden;">
+
+            <canvas></canvas>
+            <p class="num"></p>
+            <p class="str">Days</p>
+        </div>
+
+        <div class="seconds">
+
+            <canvas></canvas>
+            <p class="num"></p>
+            <p class="str">Secs</p>
+        </div>
+
+        <div class="minutes">
+
+            <canvas></canvas>
+            <p class="num"></p>
+            <p class="str">Minutes</p>
+        </div>
+    </div>
         
     
     </body>

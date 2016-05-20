@@ -38,6 +38,10 @@ a
     color: #9e1c51;
 }
 
+.cd-project-info{
+    background-color: #f9f9f7;
+}
+
 /* -------------------------------- 
 
 Modules - reusable parts of our design
@@ -365,7 +369,7 @@ xcarbonads
 
     display: inline-block;
 }
-@media only screen and (min-width: 1024px)
+@media only screen and (min-width: 900px)
 {
     #carbonads-container,
     #ui8ads-container
@@ -504,7 +508,7 @@ Main Components
 {
     height: 100vh;
 }
-@media only screen and (min-width: 1024px)
+@media only screen and (min-width: 900px)
 {
     .projects-container::before
     {
@@ -513,7 +517,7 @@ Main Components
     }
     .projects-container li
     {
-        width: 25vw;
+        width: 33.3vw;
         height: 100%;
 
         -webkit-transition: width 0s;
@@ -529,37 +533,37 @@ Main Components
     }
     .projects-container li:first-of-type::before
     {
-        content: 'img/img-1-large.jpg';
+        content: 'img/().jpg';
     }
     .projects-container li:first-of-type::after
     {
-        background-image: url('../img/img-1-large.jpg');
+        background-image: url('../img/().jpg');
     }
     .projects-container li:nth-of-type(2)
     {
         top: 0;
-        left: 25vw;
+        left: 33.3vw;
     }
     .projects-container li:nth-of-type(2)::before
     {
-        content: 'img/img-2-large.jpg';
+        content: 'img/).jpg';
     }
     .projects-container li:nth-of-type(2)::after
     {
-        background-image: url('../img/img-2-large.jpg');
+        background-image: url('../img/).jpg');
     }
     .projects-container li:nth-of-type(3)
     {
         top: 0;
-        left: 50vw;
+        left: 66.6vw;
     }
     .projects-container li:nth-of-type(3)::before
     {
-        content: 'img/img-3-large.jpg';
+        content: 'img/().jpg';
     }
     .projects-container li:nth-of-type(3)::after
     {
-        background-image: url('../img/img-3-large.jpg');
+        background-image: url('../img/().jpg');
     }
     .projects-container li:nth-of-type(4)
     {
@@ -568,11 +572,11 @@ Main Components
     }
     .projects-container li:nth-of-type(4)::before
     {
-        content: 'img/img-4-large.jpg';
+        content: 'img/).jpg';
     }
     .projects-container li:nth-of-type(4)::after
     {
-        background-image: url('../img/img-4-large.jpg');
+        background-image: url('../img/).jpg');
     }
 
     /*设定step4的内容*/
@@ -592,11 +596,7 @@ Main Components
            -moz-transition:    -moz-transform .8s, opacity .5s;
                 transition:         transform .8s, opacity .5s;
 
-        background-image: url('../img/img-2-large.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center center;
-        background-size: cover;
+
     }
 
 
@@ -630,7 +630,7 @@ Main Components
                 transition: width 1s 0s, z-index 0s 0s, left 1s 0s;
     }
 }
-@media only screen and (min-width: 1024px)
+@media only screen and (min-width: 900px)
 {
     .projects-container li::after
     {
@@ -714,12 +714,12 @@ Main Components
 }
 
 
-@media only screen and (min-width: 1024px)
+@media only screen and (min-width: 900px)
 {
     .cd-title
     {
         top: 50vh;
-
+        margin-left: 5vw;
         width: 25vw;
 
         -webkit-transform: translateY(-50%) translateX(-20px);
@@ -756,7 +756,7 @@ Main Components
         display: block;
     }
 }
-@media only screen and (min-width: 1024px)
+@media only screen and (min-width: 900px)
 {
     .cd-title h2
     {
@@ -780,7 +780,7 @@ Main Components
 
     opacity: 0;
     color: #3f538e;
-    background-color: #fff;
+    background-color: #f9f9f7;
 }
 
 .mag-top0
@@ -801,13 +801,13 @@ Main Components
 }
 .cd-project-info p
 {
-    line-height: 2;
+    line-height: 1.5;
 
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
 }
-@media only screen and (min-width: 1024px)
+@media only screen and (min-width: 900px)
 {
     .cd-project-info
     {
@@ -850,7 +850,7 @@ Main Components
 
     background: url('../img/cd-icon-close-mobile.svg') no-repeat center center;
 }
-@media only screen and (min-width: 1024px)
+@media only screen and (min-width: 900px)
 {
     .projects-container .cd-close
     {
@@ -872,7 +872,7 @@ Main Components
 
     background: url('../img/cd-icon-arrow-mobile.svg') no-repeat center center;
 }
-@media only screen and (min-width: 1024px)
+@media only screen and (min-width: 900px)
 {
     .projects-container .cd-scroll
     {
@@ -999,7 +999,8 @@ Main Components
 #h2_time
 {
     font-size: 2rem;
-
+    font-weight: 100;
+    font-weight: 100;
     letter-spacing: 2px;
 }
 
@@ -1026,7 +1027,7 @@ Main Components
 
     text-align: center;
 
-    background-image: url('../img/2.jpg');
+    background-image: url('../img/baimg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1056,3 +1057,111 @@ Main Components
     margin-top: 58%;
     cursor: pointer;
 }
+
+
+.projects-container li:not(.is-full-width):hover:after{
+    opacity: 1;
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+}
+
+.projects-container li:not(.is-full-width):hover{
+    color:#101524;
+}
+
+.is-full-width h2{
+    margin-left: -120%;
+    height: 460.375px;
+    width: 256px;
+    color : #101524;
+    opacity: 1;
+}
+
+
+.menber_img.left{
+      /* display: inline; */
+    position: absolute;
+    /* height: 200px; */
+    top: 18%;
+    left: 10%;
+}
+
+.menber_img.right{
+      /* display: inline; */
+    position: absolute;
+    /* height: 200px; */
+    top: 18%;
+    left: 50%;
+}
+
+.menber_img img{
+    height: 350px;
+    width: 448px;
+    border-radius: 5px;
+    border-radius: 8px;
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2),5px 5px 0 rgba(255,255,255,.6) inset;
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2),5px 5px 0 rgba(255,255,255,.6) inset;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2),5px 5px 0 rgba(255,255,255,.6) inset;
+}
+
+.menber_text.right{
+    padding:10px 5px;
+    height: 350px;
+    width: 353px;
+    position: absolute;
+    top: 18%;
+    left: 59%;
+}
+
+.menber_text.left{
+    padding:10px 5px;
+    height: 350px;
+    width: 353px;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+
+.menber_text p:nth-child(1){
+        font-size: 3rem;
+    line-height: 1.2em;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    margin-bottom: 15px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.menber_text p:nth-child(2){
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.menber_text.right a{
+    position: absolute;
+    left: 60%;
+    top: 81%;
+}
+
+.menber_text.left a{
+    position: absolute;
+    left: 5%;
+    top: 81%;
+}
+
+#three,#two,#one{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 15%;
+    color: transparent;
+    letter-spacing: 4px;
+    background: url('../img/baimg6.png') 100% 100%;
+    -webkit-background-clip: text;
+}
+
+
+

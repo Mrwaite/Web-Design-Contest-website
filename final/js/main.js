@@ -1,6 +1,22 @@
 jQuery(document).ready(function($){
     var srcollNumber = 0;
 	//check if background-images have been loaded and show list items
+ /*   videojs("mainVideo");
+
+    videojs("foryou");
+
+    videojs("websmall");
+    videojs("dream");
+    videojs("summer");
+    videojs("HCHH");
+    videojs("cainiao");
+    videojs("threepeople");
+    videojs("ruihaoLee");
+    videojs("george");
+    videojs("fashion");*/
+    /*ideojs("lilu");*/
+
+	
 	$('.cd-single-project').bgLoaded({
 	  	afterLoaded : function(){
 	   		showCaption($('.projects-container li').eq(0));
@@ -53,6 +69,8 @@ jQuery(document).ready(function($){
 			//expand project
 			container.addClass('project-is-open');
 			project.addClass('is-full-width').siblings('li').removeClass('is-loaded');
+			console.log(project,project.index($('.cd-single-project')));
+			
 		} else {
 			//check media query
 			var mq = window.getComputedStyle(document.querySelector('.projects-container'), '::before').getPropertyValue('content').replace(/"/g, "").replace(/'/g, ""),
@@ -98,10 +116,22 @@ jQuery(document).ready(function($){
 		
 		if(delta < 0){
 		   jumpHeightDown = (Math.ceil(iscrollTop / OneBlockHeight) + 1) * OneBlockHeight;
+			console.log((Math.ceil(iscrollTop / OneBlockHeight) + 1));
 		   $('body').animate({'scrollTop': jumpHeightDown }, 500,function(){
 		   		window.addEventListener('DOMMouseScroll', wheel, false);
 				window.onmousewheel = document.onmousewheel = wheel;
 		   });
+			if($(".cd-single-project:eq(1)").hasClass("is-full-width")) {
+				if ((Math.ceil(iscrollTop / OneBlockHeight) + 1) == 1) {
+					$("#three").addClass("magictime boingInUp");
+				}
+				if ((Math.ceil(iscrollTop / OneBlockHeight) + 1) == 2) {
+					$("#two").addClass("magictime twisterInDown");
+				}
+				if ((Math.ceil(iscrollTop / OneBlockHeight) + 1) == 3) {
+					$("#one").addClass("magictime slideUpRetourn");
+				}
+			}
 		} 
 		else{
 		   jumpHeightUp = (Math.ceil(iscrollTop / OneBlockHeight) - 1) * OneBlockHeight;
@@ -134,13 +164,29 @@ jQuery(document).ready(function($){
 	window.onmousewheel = document.onmousewheel = wheel;
 
 
-	
-	$(".projects-cover img").on("click",function(){
-		$(".projects-cover").addClass("magictime vanishOut");
-		setTimeout(function(){
-			$(".projects-cover").hide();
-		},1000)
+	$(".menber_text a").click(function(){
+		var index = $('.menber_text a').index($(this))+1;
+		$(this).parent().prev().fadeOut();
+		$(this).parent().fadeOut();
+		$(".cd-project-info").eq(index-1).find("video").fadeIn();
+		
 	});
+
+	$(".cd-single-project:eq(1) .cd-title").click(function(){
+		console.log('1231');
+		$.ajax({
+			method : 'get',
+			url: 'xxx.jsp',
+			data:1,
+			success : function(data){
+				var numdata = JSON.parse(data);
+				$("#three").html("<p>第三名：</p><p>"+numdata[5]+"</p><p>"+numdata[4]+"</p><p>"+numdata[3]+"</p>");
+				$("#two").html("<p>第二名：</p><p>"+numdata[2]+"</p><p>"+numdata[1]+"</p>");
+				$("#one").html("<p>第一名：</p><p>"+numdata[0]+"</p>")
+			}
+		});
+	});
+
 
 });
 
